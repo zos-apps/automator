@@ -1,0 +1,109 @@
+{
+  "name": "@zos-apps/automator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.automator",
+    "name": "Automator",
+    "icon": "🤖",
+    "category": "utilities",
+    "description": "Create automated workflows and scripts",
+    "permissions": [
+      "system",
+      "filesystem"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 900,
+        "height": 700
+      },
+      "resizable": true
+    },
+    "about": "Create automated workflows to save time on repetitive tasks.",
+    "featured": true,
+    "tags": [
+      "automation",
+      "workflow",
+      "scripts",
+      "productivity"
+    ],
+    "help": [
+      "Choose a workflow type",
+      "Add actions",
+      "Run or save workflow"
+    ],
+    "docs": "https://zos-apps.github.io/automator",
+    "site": "https://github.com/zos-apps/automator",
+    "features": [
+      "Workflow automation",
+      "Quick Actions",
+      "Folder Actions",
+      "Calendar alarms",
+      "Services"
+    ],
+    "shortcuts": [
+      "⌘R Run",
+      "⌘S Save",
+      "⌘⇧A Add action"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/automator"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/automator/issues",
+    "changelog": "https://github.com/zos-apps/automator/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Create automated workflows and scripts",
+  "homepage": "https://zos-apps.github.io/automator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/automator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/automator/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "automator",
+    "automation",
+    "workflow",
+    "scripts",
+    "productivity"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
